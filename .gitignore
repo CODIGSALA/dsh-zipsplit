@@ -1,0 +1,9 @@
+# 逆向/构建中间产物（含参考二进制，体积大且不入库）
+work/
+app/out/
+**/__pycache__/
+*.pyc
+*.class
+*.dex
+# 签名密钥库：不进公开仓库（本地保留 app/apk/zipsplit.jks）
+app/apk/*.jks
